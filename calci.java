@@ -1,24 +1,14 @@
-import java.util.*;
-class calci{
-    public static void add(int a,int b){
-       System.out.println(a+b);
-    }
-    public static void sub(int a,int b){
-        System.out.println(a-b);
-     }
-     public static void mul(int a,int b){
-        System.out.println(a*b);
-     }
-     public static void div(int a,int b){
-        System.out.println(a/b);
-     }
+
+
+public class calci {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int a=sc.nextInt();
-        int b=sc.nextInt();
-        add(a, b);
-        sub(a, b);
-        mul(a, b);
-        div(a, b);
+        // Instead of using Scanner, directly define input
+        int num1 = 5;
+        int num2 = 3;
+        
+        System.out.println("Addition: " + (num1 + num2));
+        System.out.println("Subtraction: " + (num1 - num2));
+        System.out.println("Multiplication: " + (num1 * num2));
+        System.out.println("Division: " + (num1 / num2));
     }
 }
